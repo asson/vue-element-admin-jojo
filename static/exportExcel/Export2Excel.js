@@ -1,6 +1,6 @@
 /* eslint-disable */
 require('script-loader!file-saver');
-require('script-loader!../static/Blob');
+require('script-loader!../../static/exportExcel/Blob.js');
 require('script-loader!xlsx/dist/xlsx.core.min');
 function generateArray(table) {
     var out = [];
